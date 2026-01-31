@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Satin Rose Salon & Spa</title>
+
+<!-- BOOTSTRAP -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- GOOGLE FONT -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#0d0d0d;
+  color:#fff;
+}
+
+/* ===== TOP BAR ===== 
+.topbar{
+  position:fixed;
+  top:0;
+  width:100%;
+  padding:12px 40px;
+  display:flex;
+  justify-content:flex-end;
+  background:rgba(0,0,0,0.6);
+  backdrop-filter:blur(10px);
+  z-index:9999;
+}
+
+.topbar select{
+  background:#000;
+  color:#fff;
+  border:1px solid #666;
+  border-radius:30px;
+  padding:6px 14px;
+}
+*/
+
+/* ===== HERO ===== */
+.hero{
+  height:100vh;
+  background:url("../assets/images/back_img.webp") center/cover no-repeat;
+  display:flex;
+  align-items:center;
+}
+
+.hero-overlay{
+  position:absolute;
+  inset:0;
+  background:rgba(0,0,0,0.6);
+}
+
+.hero-content{
+  position:relative;
+  max-width:700px;
+}
+
+/* ===== GLASS CARD ===== */
+.glass-card{
+  background:rgba(255,255,255,0.08);
+  border-radius:24px;
+  padding:40px;
+  backdrop-filter:blur(12px);
+  box-shadow:0 0 40px rgba(0,0,0,0.6);
+}
+
+/* ===== SECTION ===== */
+.section-padding{
+  padding:100px 0;
+}
+
+h2{
+  font-weight:600;
+  margin-bottom:30px;
+}
+
+.btn-main{
+  background:#e91e63;
+  color:#fff;
+  border-radius:30px;
+  padding:10px 26px;
+  border:none;
+}
+
+/* ===== IMAGE CARD ===== */
+.image-card img{
+  border-radius:20px;
+  width:100%;
+}
+
+/* ===== FOOTER ===== */
+footer{
+  background:#000;
+  padding:40px 0;
+  text-align:center;
+  color:#aaa;
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+<div class="container">
+  <div class="glass-card hero-content">
+
+    <h1 data-translate>About Satin Rose Salon & Spa</h1>
+
+    <p data-translate>
+    A premium beauty destination delivering world-class hair, skin and wellness services
+    with a legacy of excellence.
+    </p>
+
+    <a href="#about" class="btn-main mt-3" data-translate>Explore More</a>
+
+  </div>
+</div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="section-padding">
+<div class="container">
+<div class="row g-5 align-items-center">
+
+<div class="col-lg-6">
+<div class="glass-card">
+
+<h2 data-translate>About Us</h2>
+
+<p data-translate>
+Satin Rose Salon & Spa blends modern techniques with timeless artistry to create
+personalized beauty experiences.
+</p>
+
+<p data-translate>
+Our philosophy centers on understanding each client’s personality, lifestyle and
+goals before delivering results.
+</p>
+
+<p data-translate>
+With more than three decades of excellence, we continue to set benchmarks in the
+beauty industry.
+</p>
+
+</div>
+</div>
+
+<div class="col-lg-6">
+<div class="image-card">
+<img src="../assets/images/jolly_sm_col_mob.webp">
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="section-padding bg-dark">
+<div class="container">
+<h2 class="text-center" data-translate>Our Services</h2>
+
+<div class="row g-4 mt-4">
+
+<div class="col-md-4">
+<div class="glass-card">
+<h5 data-translate>Hair & Styling</h5>
+<p data-translate>Precision haircuts, coloring and treatments.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="glass-card">
+<h5 data-translate>Skin Care</h5>
+<p data-translate>Advanced facials and rejuvenation therapies.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="glass-card">
+<h5 data-translate>Makeup</h5>
+<p data-translate>Bridal, party and celebrity makeup.</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ===== BRANCHES ===== -->
+<section class="section-padding">
+<div class="container">
+
+<h2 class="text-center" data-translate>Our Branches</h2>
+
+<div class="row g-4 mt-4">
+
+<div class="col-md-6">
+<div class="glass-card">
+<h5 data-translate>Satin Rose | Salt Lake</h5>
+<p data-translate>FE 426, Sector III, Salt Lake</p>
+<p data-translate>Contact: 098311 31315</p>
+</div>
+</div>
+
+<div class="col-md-6">
+<div class="glass-card">
+<h5 data-translate>Satin Rose | Camac Street</h5>
+<p data-translate>4/1 Camac Street, Kolkata</p>
+<p data-translate>Contact: 089615 91997</p>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ===== TESTIMONIAL ===== -->
+<section class="section-padding bg-dark">
+<div class="container">
+
+<h2 class="text-center" data-translate>Testimonials</h2>
+
+<div class="row justify-content-center mt-4">
+<div class="col-lg-8">
+
+<div class="glass-card text-center">
+<p data-translate>
+Outstanding service, skilled professionals and a relaxing ambience.
+Highly recommended.
+</p>
+</div>
+
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© Satin Rose Salon & Spa</p>
+</footer>
+
+<script src="main.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
