@@ -6,6 +6,11 @@
 
 A high-performance, AI-driven translation system designed for real-time website localization. Utilizing the **NLLB (No Language Left Behind)** model and a sophisticated multi-layer caching mechanism, it provides near-instant translations into **Bengali** and **Hindi**.
 
+## 🎥 Demo Video
+
+https://github.com/DEEPSEN1998/Ai-translate-system/blob/main/ai-translate.mp4
+
+
 ---
 
 ## 🚀 Key Features
